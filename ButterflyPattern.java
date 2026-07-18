@@ -7,7 +7,7 @@ class ButterflyPattern {
             }
             int spaces = 2*(n-i);
             for(int k= 1; k <= spaces; k++){
-                System.out.print("-");
+                System.out.print(" ");
             }
             for(int j= 1; j<= i; j++){
                 System.out.print("*");
@@ -20,7 +20,7 @@ class ButterflyPattern {
             }
             int spaces = 2*(n-i);
             for(int k= 1; k <= spaces; k++){
-                System.out.print("-");
+                System.out.print(" ");
             }
             for(int j= 1; j<= i; j++){
                 System.out.print("*");
@@ -29,3 +29,14 @@ class ButterflyPattern {
         }
     }
 }
+
+
+
+// *      *
+// **    **
+// ***  ***
+// ********
+// ********
+// ***  ***
+// **    **
+// *      *
